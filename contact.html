@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="bg-[#bd0000] p-2 rounded-lg">
+                        <h1 class="text-2xl font-bold text-white">HP</h1>
+                    </div>
+                    <span class="ml-3 text-xl font-semibold text-gray-800">Serviços</span>
+                </div>
+                
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Início</a>
+                    <a href="service.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Serviços</a>
+                    <a href="projects.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Projetos</a>
+                    <a href="index.html#about" class="block py-2 text-gray-800 hover:text-[#bd0000]">Sobre</a>
+                    <a href="contact.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Contato</a>
+                </nav>
+                
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-gray-800 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                    <a href="index.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Início</a>
+                    <a href="service.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Serviços</a>
+                    <a href="projects.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Projetos</a>
+                    <a href="index.html#about
+                    " class="block py-2 text-gray-800 hover:text-[#bd0000]">Sobre</a>
+                    <a href="contact.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Contato</a>
+            </div>
+        </div>
+    </header>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Entre em Contato</h2>
+                <div class="w-20 h-1 bg-[#bd0000] mx-auto"></div>
+                <p class="max-w-2xl mx-auto text-gray-300 mt-4">Estamos prontos para atender suas necessidades em construção e instalações elétricas.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Envie uma Mensagem</h3>
+                        <form id="contact-form">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Nome</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#bd0000]" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#bd0000]" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="phone" class="block text-gray-700 font-medium mb-2">Telefone</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#bd0000]">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="service" class="block text-gray-700 font-medium mb-2">Serviço de Interesse</label>
+                                <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#bd0000]">
+                                    <option value="">Selecione um serviço</option>
+                                    <option value="construcao">Construção Civil</option>
+                                    <option value="eletrica">Instalações Elétricas</option>
+                                    <option value="reforma">Reformas</option>
+                                    <option value="solar">Energia Solar</option>
+                                    <option value="projeto">Projetos</option>
+                                    <option value="manutencao">Manutenção</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#bd0000]"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-[#bd0000] hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-700 p-8 rounded-lg shadow-lg h-full">
+                        <h3 class="text-2xl font-bold text-white mb-6">Informações de Contato</h3>
+                        
+                        <div class="mb-8">
+                            <h4 class="text-xl font-semibold text-[#bd0000] mb-4">Horário de Funcionamento</h4>
+                            <div class="flex items-center mb-3">
+                                <div class="text-[#bd0000] mr-4">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div>
+                                    <p class="text-gray-300">Segunda a Sexta: 8h às 18h</p>
+                                    <p class="text-gray-300">Sábado: 8h às 12h</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-8">
+                            <h4 class="text-xl font-semibold text-[#bd0000] mb-4">Endereço</h4>
+                            <div class="flex items-start mb-3">
+                                <div class="text-[#bd0000] mr-4 mt-1">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <p class="text-gray-300">Rua das Construções, 123</p>
+                                    <p class="text-gray-300">Bairro Industrial</p>
+                                    <p class="text-gray-300">São Paulo - SP</p>
+                                    <p class="text-gray-300">CEP: 01234-567</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-8">
+                            <h4 class="text-xl font-semibold text-[#bd0000] mb-4">Contatos</h4>
+                            <div class="flex items-center mb-3">
+                                <div class="text-[#bd0000] mr-4">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <a href="tel:+5511999999999" class="text-gray-300 hover:text-[#bd0000]">(11) 99999-9999</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center mb-3">
+                                <div class="text-[#bd0000] mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <a href="mailto:contato@hheletrica.com.br" class="text-gray-300 hover:text-[#bd0000]">contato@hheletrica.com.br</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-xl font-semibold text-[#bd0000] mb-4">Redes Sociais</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-gray-600 hover:bg-[#bd0000] text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-gray-600 hover:bg-[#bd0000] text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="bg-gray-600 hover:bg-[#bd0000] text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-gray-600 hover:bg-[#bd0000] text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-[#bd0000] p-2 rounded-lg">
+                            <h1 class="text-2xl font-bold text-white">HP</h1>
+                        </div>
+                        <span class="ml-3 text-xl font-semibold">Serviços</span>
+                    </div>
+                    <p class="max-w-xs text-gray-400">Excelência em construção civil e instalações elétricas desde 2008.</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Links Rápidos</h4>
+                        <ul class="space-y-2">
+                            <li><a href="index.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Início</a></li>
+                            <li><a href="service.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Serviços</a></li>
+                            <li><a href="projects.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Projetos</a></li>
+                            <li><a href="index.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Sobre</a></li>
+                            <li><a href="contact.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Serviços</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Construção Civil</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Instalações Elétricas</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Reformas</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Energia Solar</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Manutenção</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Contato</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-[#bd0000] mt-1 mr-2"></i>
+                                <span class="text-gray-400">Rua das Construções, 123 - SP</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone-alt text-[#bd0000] mr-2"></i>
+                                <a href="tel:+5511999999999" class="text-gray-400 hover:text-[#bd0000]">(11) 99999-9999</a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-[#bd0000] mr-2"></i>
+                                <a href="mailto:contato@hheletrica.com.br" class="text-gray-400 hover:text-[#bd0000]">contato@hheletrica.com.br</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 HP Serviços. Todos os direitos reservados.</p>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#bd0000] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>

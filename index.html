@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H&H - Decornatalina</title>
+    <title>HP - Serviços</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -14,18 +14,18 @@
         <div class="container mx-auto px-6 py-3">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <div class="bg-amber-500 p-2 rounded-lg">
-                        <h1 class="text-2xl font-bold text-white">H&H</h1>
+                    <div class="bg-[#bd0000] p-2 rounded-lg">
+                        <h1 class="text-2xl font-bold text-white">HP</h1>
                     </div>
-                    <span class="ml-3 text-xl font-semibold text-gray-800">Decornatalina</span>
+                    <span class="ml-3 text-xl font-semibold text-gray-800">Serviços</span>
                 </div>
                 
                 <nav class="hidden md:flex space-x-8">
-                    <a href="#home" class="nav-link text-gray-800 hover:text-amber-500">Início</a>
-                    <a href="#services" class="nav-link text-gray-800 hover:text-amber-500">Serviços</a>
-                    <a href="#projects" class="nav-link text-gray-800 hover:text-amber-500">Projetos</a>
-                    <a href="#about" class="nav-link text-gray-800 hover:text-amber-500">Sobre</a>
-                    <a href="#contact" class="nav-link text-gray-800 hover:text-amber-500">Contato</a>
+                    <a href="#home" class="block py-2 text-gray-800 hover:text-[#bd0000]">Início</a>
+                    <a href="service.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Serviços</a>
+                    <a href="projects.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Projetos</a>
+                    <a href="#about" class="block py-2 text-gray-800 hover:text-[#bd0000]">Sobre</a>
+                    <a href="contact.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Contato</a>
                 </nav>
                 
                 <div class="md:hidden">
@@ -37,11 +37,11 @@
             
             <!-- Mobile menu -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
-                <a href="#home" class="block py-2 text-gray-800 hover:text-amber-500">Início</a>
-                <a href="#services" class="block py-2 text-gray-800 hover:text-amber-500">Serviços</a>
-                <a href="#projects" class="block py-2 text-gray-800 hover:text-amber-500">Projetos</a>
-                <a href="#about" class="block py-2 text-gray-800 hover:text-amber-500">Sobre</a>
-                <a href="#contact" class="block py-2 text-gray-800 hover:text-amber-500">Contato</a>
+                <a href="#home" class="block py-2 text-gray-800 hover:text-[#bd0000]">Início</a>
+                <a href="service.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Serviços</a>
+                <a href="projects.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Projetos</a>
+                <a href="#about" class="block py-2 text-gray-800 hover:text-[#bd0000]">Sobre</a>
+                <a href="contact.html" class="block py-2 text-gray-800 hover:text-[#bd0000]">Contato</a>
             </div>
         </div>
     </header>
@@ -53,176 +53,25 @@
                 <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Soluções completas em construção e elétrica</h1>
                 <p class="text-xl text-gray-200 mb-8">Mais de 15 anos transformando sonhos em realidade com qualidade e segurança.</p>
                 <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Solicite um Orçamento</a>
-                    <a href="#services" class="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Nossos Serviços</a>
+                    <a href="contact.html" class="bg-[#bd0000] hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Solicite um Orçamento</a>
+                    <a href="service.html" class="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Nossos Serviços</a>
                 </div>
             </div>
         </div>
+        
     </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nossos Serviços</h2>
-                <div class="w-20 h-1 bg-amber-500 mx-auto"></div>
-                <p class="max-w-2xl mx-auto text-gray-600 mt-4">Oferecemos soluções completas para construção civil e instalações elétricas residenciais e comerciais.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
-                    <div class="text-amber-500 mb-4">
-                        <i class="fas fa-home text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Construção Civil</h3>
-                    <p class="text-gray-600">Executamos obras residenciais e comerciais desde a fundação até o acabamento, com qualidade e dentro do prazo.</p>
-                </div>
-                
-                <!-- Service 2 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
-                    <div class="text-amber-500 mb-4">
-                        <i class="fas fa-bolt text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Instalações Elétricas</h3>
-                    <p class="text-gray-600">Projetos e execução de instalações elétricas seguras e eficientes, seguindo todas as normas técnicas.</p>
-                </div>
-                
-                <!-- Service 3 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
-                    <div class="text-amber-500 mb-4">
-                        <i class="fas fa-tools text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Reformas</h3>
-                    <p class="text-gray-600">Reformas completas ou parciais, com planejamento detalhado para minimizar transtornos.</p>
-                </div>
-                
-                <!-- Service 4 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
-                    <div class="text-amber-500 mb-4">
-                        <i class="fas fa-solar-panel text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Energia Solar</h3>
-                    <p class="text-gray-600">Instalação de sistemas fotovoltaicos para redução de custos com energia elétrica.</p>
-                </div>
-                
-                <!-- Service 5 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
-                    <div class="text-amber-500 mb-4">
-                        <i class="fas fa-project-diagram text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Projetos Personalizados</h3>
-                    <p class="text-gray-600">Desenvolvemos projetos arquitetônicos e elétricos sob medida para suas necessidades.</p>
-                </div>
-                
-                <!-- Service 6 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
-                    <div class="text-amber-500 mb-4">
-                        <i class="fas fa-shield-alt text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Manutenção Preventiva</h3>
-                    <p class="text-gray-600">Programas de manutenção para evitar problemas e garantir a segurança das instalações.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nossos Projetos</h2>
-                <div class="w-20 h-1 bg-amber-500 mx-auto"></div>
-                <p class="max-w-2xl mx-auto text-gray-600 mt-4">Alguns dos nossos trabalhos mais recentes que demonstram nossa qualidade e diversidade de serviços.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Project 1 -->
-                <div class="project-card relative rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Casa moderna" class="w-full h-64 object-cover">
-                    <div class="project-overlay absolute inset-0 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white text-xl font-bold">Residência Alto Padrão</h3>
-                            <p class="text-gray-300">Construção completa em Alphaville</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card relative rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1600566752227-8f3e8a57d521?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Prédio comercial" class="w-full h-64 object-cover">
-                    <div class="project-overlay absolute inset-0 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white text-xl font-bold">Edifício Comercial</h3>
-                            <p class="text-gray-300">Instalações elétricas completas</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card relative rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Reforma residencial" class="w-full h-64 object-cover">
-                    <div class="project-overlay absolute inset-0 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white text-xl font-bold">Reforma Residencial</h3>
-                            <p class="text-gray-300">Modernização completa em apartamento</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 4 -->
-                <div class="project-card relative rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1540932239986-30128f3d1b3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Sistema solar" class="w-full h-64 object-cover">
-                    <div class="project-overlay absolute inset-0 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white text-xl font-bold">Energia Solar</h3>
-                            <p class="text-gray-300">Instalação de sistema fotovoltaico</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 5 -->
-                <div class="project-card relative rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Casa em construção" class="w-full h-64 object-cover">
-                    <div class="project-overlay absolute inset-0 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white text-xl font-bold">Residência Familiar</h3>
-                            <p class="text-gray-300">Construção do zero com acabamento fino</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 6 -->
-                <div class="project-card relative rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Quadro elétrico" class="w-full h-64 object-cover">
-                    <div class="project-overlay absolute inset-0 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white text-xl font-bold">Quadro Elétrico</h3>
-                            <p class="text-gray-300">Instalação e organização de quadros de distribuição</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="text-center mt-12">
-                <a href="#contact" class="inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300">Quero um Projeto Como Esses</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
     <section id="about" class="py-20 bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="flex flex-col lg:flex-row items-center">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Equipe H&H" class="rounded-lg shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Equipe HP" class="rounded-lg shadow-xl">
                 </div>
                 
                 <div class="lg:w-1/2">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Sobre a H&H</h2>
-                    <div class="w-20 h-1 bg-amber-500 mb-6"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Sobre a HP</h2>
+                    <div class="w-20 h-1 bg-[#bd0000] mb-6"></div>
                     
-                    <p class="text-gray-600 mb-4">Fundada em 2008, a H&H Decornatalina se consolidou como referência em qualidade e confiabilidade no mercado de construção civil e instalações elétricas.</p>
+                    <p class="text-gray-600 mb-4">Fundada em 2008, a HP Serviços se consolidou como referência em qualidade e confiabilidade no mercado de construção civil e instalações elétricas.</p>
                     
                     <p class="text-gray-600 mb-6">Nossa equipe é composta por profissionais altamente qualificados, com certificações e treinamentos constantes para oferecer sempre o melhor serviço aos nossos clientes.</p>
                     
@@ -269,12 +118,12 @@
                     </div>
                     
                     <div class="flex items-center">
-                        <div class="bg-amber-500 text-white p-4 rounded-full mr-4">
+                        <div class="bg-[#bd0000] text-white p-4 rounded-full mr-4">
                             <i class="fas fa-phone-alt text-xl"></i>
                         </div>
                         <div>
                             <p class="text-gray-600">Precisa de ajuda?</p>
-                            <a href="tel:+5511999999999" class="text-xl font-bold text-gray-800 hover:text-amber-500">(11) 99999-9999</a>
+                            <a href="tel:+5511999999999" class="text-xl font-bold text-gray-800 hover:text-[#bd0000]">(11) 99999-9999</a>
                         </div>
                     </div>
                 </div>
@@ -287,7 +136,7 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">O Que Nossos Clientes Dizem</h2>
-                <div class="w-20 h-1 bg-amber-500 mx-auto"></div>
+                <div class="w-20 h-1 bg-[#bd0000] mx-auto"></div>
                 <p class="max-w-2xl mx-auto text-gray-600 mt-4">A satisfação dos nossos clientes é nossa maior recompensa.</p>
             </div>
             
@@ -295,7 +144,7 @@
                 <!-- Testimonial 1 -->
                 <div class="testimonial-card bg-gray-50 p-8 rounded-lg">
                     <div class="flex items-center mb-4">
-                        <div class="text-amber-500 mr-2">
+                        <div class="text-[#bd0000] mr-2">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -303,7 +152,7 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-600 mb-6">"Contratei a H&H para a construção da minha casa e fiquei impressionado com a qualidade do trabalho e o profissionalismo da equipe. Tudo foi entregue dentro do prazo e orçamento combinados."</p>
+                    <p class="text-gray-600 mb-6">"Contratei a HP para a construção da minha casa e fiquei impressionado com a qualidade do trabalho e o profissionalismo da equipe. Tudo foi entregue dentro do prazo e orçamento combinados."</p>
                     <div class="flex items-center">
                         <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
                         <div>
@@ -316,7 +165,7 @@
                 <!-- Testimonial 2 -->
                 <div class="testimonial-card bg-gray-50 p-8 rounded-lg">
                     <div class="flex items-center mb-4">
-                        <div class="text-amber-500 mr-2">
+                        <div class="text-[#bd0000] mr-2">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -324,7 +173,7 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-600 mb-6">"Precisava urgentemente de uma reforma elétrica no meu escritório. A H&H não só resolveu o problema rapidamente como ainda sugeriu melhorias que reduziram meu consumo de energia em 20%."</p>
+                    <p class="text-gray-600 mb-6">"Precisava urgentemente de uma reforma elétrica no meu escritório. A HP não só resolveu o problema rapidamente como ainda sugeriu melhorias que reduziram meu consumo de energia em 20%."</p>
                     <div class="flex items-center">
                         <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
                         <div>
@@ -337,7 +186,7 @@
                 <!-- Testimonial 3 -->
                 <div class="testimonial-card bg-gray-50 p-8 rounded-lg">
                     <div class="flex items-center mb-4">
-                        <div class="text-amber-500 mr-2">
+                        <div class="text-[#bd0000] mr-2">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -345,140 +194,12 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-600 mb-6">"Instalei energia solar com a H&H e estou muito satisfeito. Desde o projeto até a execução, tudo foi feito com muita competência. Minha conta de luz caiu para menos da metade!"</p>
+                    <p class="text-gray-600 mb-6">"Instalei energia solar com a HP e estou muito satisfeito. Desde o projeto até a execução, tudo foi feito com muita competência. Minha conta de luz caiu para menos da metade!"</p>
                     <div class="flex items-center">
                         <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
                         <div>
                             <h4 class="font-bold text-gray-800">Carlos Eduardo</h4>
                             <p class="text-gray-600">Sistema Fotovoltaico</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-800">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Entre em Contato</h2>
-                <div class="w-20 h-1 bg-amber-500 mx-auto"></div>
-                <p class="max-w-2xl mx-auto text-gray-300 mt-4">Estamos prontos para atender suas necessidades em construção e instalações elétricas.</p>
-            </div>
-            
-            <div class="flex flex-col lg:flex-row">
-                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <div class="bg-white p-8 rounded-lg shadow-lg">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Envie uma Mensagem</h3>
-                        <form id="contact-form">
-                            <div class="mb-4">
-                                <label for="name" class="block text-gray-700 font-medium mb-2">Nome</label>
-                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" required>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
-                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" required>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="phone" class="block text-gray-700 font-medium mb-2">Telefone</label>
-                                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="service" class="block text-gray-700 font-medium mb-2">Serviço de Interesse</label>
-                                <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
-                                    <option value="">Selecione um serviço</option>
-                                    <option value="construcao">Construção Civil</option>
-                                    <option value="eletrica">Instalações Elétricas</option>
-                                    <option value="reforma">Reformas</option>
-                                    <option value="solar">Energia Solar</option>
-                                    <option value="projeto">Projetos</option>
-                                    <option value="manutencao">Manutenção</option>
-                                </select>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem</label>
-                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
-                            </div>
-                            
-                            <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Enviar Mensagem</button>
-                        </form>
-                    </div>
-                </div>
-                
-                <div class="lg:w-1/2">
-                    <div class="bg-gray-700 p-8 rounded-lg shadow-lg h-full">
-                        <h3 class="text-2xl font-bold text-white mb-6">Informações de Contato</h3>
-                        
-                        <div class="mb-8">
-                            <h4 class="text-xl font-semibold text-amber-400 mb-4">Horário de Funcionamento</h4>
-                            <div class="flex items-center mb-3">
-                                <div class="text-amber-400 mr-4">
-                                    <i class="far fa-clock"></i>
-                                </div>
-                                <div>
-                                    <p class="text-gray-300">Segunda a Sexta: 8h às 18h</p>
-                                    <p class="text-gray-300">Sábado: 8h às 12h</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-8">
-                            <h4 class="text-xl font-semibold text-amber-400 mb-4">Endereço</h4>
-                            <div class="flex items-start mb-3">
-                                <div class="text-amber-400 mr-4 mt-1">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div>
-                                    <p class="text-gray-300">Rua das Construções, 123</p>
-                                    <p class="text-gray-300">Bairro Industrial</p>
-                                    <p class="text-gray-300">São Paulo - SP</p>
-                                    <p class="text-gray-300">CEP: 01234-567</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-8">
-                            <h4 class="text-xl font-semibold text-amber-400 mb-4">Contatos</h4>
-                            <div class="flex items-center mb-3">
-                                <div class="text-amber-400 mr-4">
-                                    <i class="fas fa-phone-alt"></i>
-                                </div>
-                                <div>
-                                    <a href="tel:+5511999999999" class="text-gray-300 hover:text-amber-400">(11) 99999-9999</a>
-                                </div>
-                            </div>
-                            
-                            <div class="flex items-center mb-3">
-                                <div class="text-amber-400 mr-4">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
-                                <div>
-                                    <a href="mailto:contato@hheletrica.com.br" class="text-gray-300 hover:text-amber-400">contato@hheletrica.com.br</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <h4 class="text-xl font-semibold text-amber-400 mb-4">Redes Sociais</h4>
-                            <div class="flex space-x-4">
-                                <a href="#" class="bg-gray-600 hover:bg-amber-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" class="bg-gray-600 hover:bg-amber-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="#" class="bg-gray-600 hover:bg-amber-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#" class="bg-gray-600 hover:bg-amber-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                    <i class="fab fa-whatsapp"></i>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -492,10 +213,10 @@
             <div class="flex flex-col md:flex-row justify-between">
                 <div class="mb-8 md:mb-0">
                     <div class="flex items-center mb-4">
-                        <div class="bg-amber-500 p-2 rounded-lg">
-                            <h1 class="text-2xl font-bold text-white">H&H</h1>
+                        <div class="bg-[#bd0000] p-2 rounded-lg">
+                            <h1 class="text-2xl font-bold text-white">HP</h1>
                         </div>
-                        <span class="ml-3 text-xl font-semibold">Decornatalina</span>
+                        <span class="ml-3 text-xl font-semibold">Serviços</span>
                     </div>
                     <p class="max-w-xs text-gray-400">Excelência em construção civil e instalações elétricas desde 2008.</p>
                 </div>
@@ -504,22 +225,22 @@
                     <div>
                         <h4 class="text-lg font-semibold mb-4">Links Rápidos</h4>
                         <ul class="space-y-2">
-                            <li><a href="#home" class="text-gray-400 hover:text-amber-400 transition duration-300">Início</a></li>
-                            <li><a href="#services" class="text-gray-400 hover:text-amber-400 transition duration-300">Serviços</a></li>
-                            <li><a href="#projects" class="text-gray-400 hover:text-amber-400 transition duration-300">Projetos</a></li>
-                            <li><a href="#about" class="text-gray-400 hover:text-amber-400 transition duration-300">Sobre</a></li>
-                            <li><a href="#contact" class="text-gray-400 hover:text-amber-400 transition duration-300">Contato</a></li>
+                            <li><a href="#home" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Início</a></li>
+                            <li><a href="service.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Serviços</a></li>
+                            <li><a href="projects.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Projetos</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Sobre</a></li>
+                            <li><a href="contact.html" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Contato</a></li>
                         </ul>
                     </div>
                     
                     <div>
                         <h4 class="text-lg font-semibold mb-4">Serviços</h4>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">Construção Civil</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">Instalações Elétricas</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">Reformas</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">Energia Solar</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">Manutenção</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Construção Civil</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Instalações Elétricas</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Reformas</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Energia Solar</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">Manutenção</a></li>
                         </ul>
                     </div>
                     
@@ -527,16 +248,16 @@
                         <h4 class="text-lg font-semibold mb-4">Contato</h4>
                         <ul class="space-y-2">
                             <li class="flex items-start">
-                                <i class="fas fa-map-marker-alt text-amber-400 mt-1 mr-2"></i>
+                                <i class="fas fa-map-marker-alt text-[#bd0000] mt-1 mr-2"></i>
                                 <span class="text-gray-400">Rua das Construções, 123 - SP</span>
                             </li>
                             <li class="flex items-center">
-                                <i class="fas fa-phone-alt text-amber-400 mr-2"></i>
-                                <a href="tel:+5511999999999" class="text-gray-400 hover:text-amber-400">(11) 99999-9999</a>
+                                <i class="fas fa-phone-alt text-[#bd0000] mr-2"></i>
+                                <a href="tel:+5511999999999" class="text-gray-400 hover:text-[#bd0000]">(11) 99999-9999</a>
                             </li>
                             <li class="flex items-center">
-                                <i class="fas fa-envelope text-amber-400 mr-2"></i>
-                                <a href="mailto:contato@hheletrica.com.br" class="text-gray-400 hover:text-amber-400">contato@hheletrica.com.br</a>
+                                <i class="fas fa-envelope text-[#bd0000] mr-2"></i>
+                                <a href="mailto:contato@hheletrica.com.br" class="text-gray-400 hover:text-[#bd0000]">contato@hheletrica.com.br</a>
                             </li>
                         </ul>
                     </div>
@@ -544,19 +265,19 @@
             </div>
             
             <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 mb-4 md:mb-0">© 2023 H&H Decornatalina. Todos os direitos reservados.</p>
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 HP Serviços. Todos os direitos reservados.</p>
                 
                 <div class="flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-amber-400 transition duration-300">
+                    <a href="#" class="text-gray-400 hover:text-[#bd0000] transition duration-300">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                 </div>
@@ -565,7 +286,7 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-8 right-8 bg-amber-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300">
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#bd0000] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300">
         <i class="fas fa-arrow-up"></i>
     </button>
     <script src="script.js"></script>
