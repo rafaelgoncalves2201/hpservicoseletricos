@@ -60,3 +60,8 @@ contactForm.addEventListener('submit', (e) => {
     // Reset form
     contactForm.reset();
 });
+
+const imgs = document.querySelectorAll("img");
+    imgs.forEach((img, i) => {
+        console.log(`Imagem ${i + 1}:`, img.src);
+    });
