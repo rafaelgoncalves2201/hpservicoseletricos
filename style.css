@@ -6,8 +6,8 @@
         }
         
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagens/Inicial\ site.png');
-            background-size: cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagens/Design\ sem\ nome.png');
+            background-size: 100%;
             background-position: center;
             background-repeat: no-repeat;
         }
