@@ -6,12 +6,26 @@
         }
         
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagens/Teste1.png');
-            background-size: 100%;
-            background-position: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                    url('imagens/Teste1.png');
+            background-size: cover; /* preenche toda a tela */
+            background-position: left center; /* centraliza a imagem */
             background-repeat: no-repeat;
+            width: 100%;
+            min-height: 100vh; /* altura mínima igual à altura da tela */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
-        
+        @media (max-width: 768px) {
+            .hero {
+                background-size: cover;
+                background-position: 85% center; /* ajusta o foco da imagem */
+                min-height: 100vh;
+                padding: 20px;
+            }
+        }
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
