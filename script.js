@@ -65,3 +65,8 @@ const imgs = document.querySelectorAll("img");
     imgs.forEach((img, i) => {
         console.log(`Imagem ${i + 1}:`, img.src);
     });
+// x para remover o pop-up do whatsapp
+function fecharTexto() {
+  const box = document.getElementById("whatsapp-popup");
+  box.style.display = "none";
+}
