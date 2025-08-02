@@ -1,8 +1,9 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/service", "destination": "/service.html" },
-    { "source": "/projects", "destination": "/projects.html" },
-    { "source": "/contact", "destination": "/contact.html" }
+    { "source": "/:path", "destination": "/:path.html" }
+  ],
+  "redirects": [
+    { "source": "/:path.html", "destination": "/:path", "permanent": true }
   ]
 }
